@@ -1,0 +1,84 @@
+
+/* ==== BROWSER RESETS  ==== */
+* { padding: 0; margin: 0; border: 0; font-weight: normal; font-size: 16px }
+
+body, html { height: 100% } 
+
+body { max-width: 1600px; margin: 0 auto }
+
+/* ==== PAGE WIDTH  ==== */
+
+/* Mobiles */
+@media all and (max-width:767px) {
+    body {
+       padding-left: 5%;
+       padding-right: 5%
+    }
+}
+
+/* Desktop */
+@media all and (min-width:768px) {
+    body {
+       padding-left: 20%;
+       padding-right: 20%
+    }
+}
+
+
+
+/* ==== HEADINGS ==== */
+
+h1 {
+    font-family: serif; 
+    font-weight: bold;
+    font-size: calc(42px + (64 - 42) * ((100vw - 320px)/(1600 - 320)));
+    line-height: 1.3;
+    letter-spacing: -1px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+ }
+ 
+ h2 {
+    font-family: serif;
+    font-weight: bold;
+    font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
+    line-height: 1.3;
+    margin-top: 40px;
+    margin-bottom: 12px;
+ }
+ 
+ h3 {
+    font-family: serif;
+    font-weight: bold;
+    font-size: calc(22px + (28 - 22) * ((100vw - 320px)/(1600 - 320)));
+    line-height: 1.3;
+    margin-top: 32px;
+    margin-bottom: 6px;
+ }
+ 
+
+/* ==== PARAGRAPHS ==== */
+
+p {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
+ }
+ 
+ 
+ /* Mobiles */
+ @media all and (max-width:767px) {
+    p {
+       line-height: 1.5;
+       margin-bottom: 5%;
+    }
+ }
+ 
+ /* Desktop */
+ @media all and (min-width:768px) {
+    p {
+       line-height: 1.6;
+       margin-bottom: 2%;
+    }
+ }
+ 
