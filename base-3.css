@@ -22,7 +22,7 @@ body, html { height: 100% }
 }
 
 body {
-   background-image: radial-gradient(#1F1D1D, #000000);
+   background-image: radial-gradient(#181818, #000000);
 
 }
 
@@ -34,7 +34,7 @@ h1,h2,h3,p {
 /* ==== HEADINGS ==== */
 
 h1 {
-   font-family: serif;
+   font-family: 'Darker Grotesque';
    font-weight: bold;
    font-size: calc(42px + (64 - 42) * ((100vw - 320px)/(1600 - 320)));
    letter-spacing: -1px;
@@ -61,7 +61,7 @@ h1 {
 
 
 h2 {
-  font-family: serif;
+  font-family: 'Darker Grotesque';
   font-weight: bold;
   font-size: calc(32px + (48 - 32) * ((100vw - 320px)/(1600 - 320)));
 }
@@ -87,7 +87,7 @@ h2 {
 
 
 h3 {
-  font-family: serif;
+  font-family: 'Darker Grotesque';
   font-weight: bold;
   font-size: calc(22px + (28 - 22) * ((100vw - 320px)/(1600 - 320)));
 }
@@ -115,7 +115,7 @@ h3 {
 /* ==== PARAGRAPHS ==== */
 
 p {
-   font-family: sans-serif;
+   font-family: 'Darker Grotesque'serif;
    font-weight: normal;
    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
 }
