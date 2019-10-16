@@ -23,7 +23,7 @@ body, html { height: 100% }
 
 body {
 /* background-image: radial-gradient(#181818, #000000); */
-    background: linear-gradient(to right,#2e83b4,#67d6b5)
+    background: linear-gradient(to right,#000000,#2a2b2a)
 }
 
 h1,h2,h3,p {
